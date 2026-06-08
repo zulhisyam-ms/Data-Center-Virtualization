@@ -1,4 +1,5 @@
 #main configuration
+#to make a connection between database and pipeline
 
 default_environment: default
 environments:
