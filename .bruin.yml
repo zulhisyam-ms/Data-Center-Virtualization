@@ -1,3 +1,5 @@
+#main configuration
+
 default_environment: default
 environments:
   default:
