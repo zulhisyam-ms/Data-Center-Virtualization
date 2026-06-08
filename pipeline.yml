@@ -1,3 +1,5 @@
+#pipeline schedule
+
 name: bruin-duckdb
 schedule: daily
 start_date: "2024-01-01"
