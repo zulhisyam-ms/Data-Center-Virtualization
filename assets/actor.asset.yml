@@ -1,1 +1,22 @@
+#Data Ingestion Schema
 
+
+name: raw.actor
+type: duckdb.sheet
+description: "This asset loads a CSV File into a DuckDB database."
+columns:
+  - name: Actor
+    type: varchar
+    description: "Name of the actor"
+  - name: ActorID
+    type: varchar
+  - name: Film
+    type: varchar
+  - name: Year
+    type: varchar
+  - name: Votes
+    type: varchar
+  - name: Rating
+    type: varchar
+parameters:
+  path: "./actor.csv"
